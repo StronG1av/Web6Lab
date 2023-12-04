@@ -1,0 +1,25 @@
+.slider-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border: 20px solid rgb(45, 29, 192);
+            box-sizing: border-box;
+        }
+
+        .slider {
+            display: flex;
+            width: 400px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            border: 5px solid rgba(231, 12, 12, 0.664);
+            box-sizing: border-box;
+        }
+
+        .slider img {
+            width: 400px;
+            height: 300px;
+            transition: transform 0.3s ease-in-out;
+            box-sizing: border-box;
+        }
